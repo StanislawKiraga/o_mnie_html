@@ -1,0 +1,12 @@
+{% extends "base.htm" %}
+{% block content %}
+<h2>Kontakt</h2>
+    <ul>
+        <li><strong>email:</strong> tomcrusie@hollywod.com</li>
+        <li><strong>telefon:</strong> 505-606-707</li>
+    </ul>
+<h3><u>Wyślij wiadomość</u></h3>
+    <form action="/action_page.php" id="usrform"></form>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+      </textarea><input type="submit">
+{% endblock %}

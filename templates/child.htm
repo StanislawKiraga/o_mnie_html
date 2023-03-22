@@ -1,0 +1,18 @@
+{% extends "parent.htm" %}
+{% block content %}
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+]
+{% extends "parent.htm" %}
+{% block content %}
+<form>
+    <label>Element name</label>
+    <input name="element"></input>
+    <input type="submit"/>
+</form>
+{% endblock %}
